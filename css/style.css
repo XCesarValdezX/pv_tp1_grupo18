@@ -55,3 +55,9 @@ footer {
     color: white;
     margin-top: 20px;
 }
+.sub{
+    color: rgb(5, 3, 3);
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
