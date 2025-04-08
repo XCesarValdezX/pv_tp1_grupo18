@@ -1,0 +1,91 @@
+/* Fuente y colores principales */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fdfaf6;
+    color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #8c6239;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Nav */
+nav {
+    background-color: #d6b58c;
+    padding: 0.8rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3e2f23;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #8c6239;
+}
+
+/* lo principal */
+h1 {
+    text-align: center;
+    margin: 2rem 0 1rem;
+    color: #5a422a;
+}
+
+ul {
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    padding: 0;
+    list-style-type: square;
+}
+
+ul li {
+    margin: 0.8rem 0;
+    font-size: 1.1rem;
+}
+
+ul li a {
+    color: #2e5a8c;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    background-color: #8c6239;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 3rem;
+}
