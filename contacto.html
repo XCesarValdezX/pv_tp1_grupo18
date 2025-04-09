@@ -10,36 +10,40 @@
     <Header>
         <h1>Contáctenos</h1>
     </Header>
-    <nav>
+    <nav class="nav-bar">
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="museos.html">Museos</a></li>
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
-    <form action="/my-handling-form-page" method="post">
-        <ul>
-          <li>
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="user_name" />
-          </li>
-          <li>
-            <label for="name">Apellido:</label>
-            <input type="text" id="apellido" name="user_apellido" />
-          </li>
-          <li>
-            <label for="mail">Correo electrónico:</label>
-            <input type="email" id="mail" name="user_email" />
-          </li>
-          <li>
-            <label for="msg">Mensaje:</label>
-            <textarea id="msg" name="user_message"></textarea>
-          </li>
-        </ul>
-        <button>Enviar</button>
-    </form>
+    <div>
+      <main>
+        <form action="/my-handling-form-page" method="post">
+          <ul>
+            <li>
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="user_name" />
+            </li>
+            <li>
+              <label for="apellido">Apellido:</label>
+              <input type="text" id="apellido" name="user_apellido" />
+            </li>
+            <li>
+              <label for="mail">Correo electrónico:</label>
+              <input type="email" id="mail" name="user_email" />
+            </li>
+            <li>
+              <label for="msg">Mensaje:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </li>
+          </ul>
+          <button>Enviar</button>
+        </form>
+      </main>
+    </div>
     <footer>
-        <p>Cultura Argentina - Pagina de Informacion</p>
+        <p>Programacion Visual 2025 - Contacto</p>
     </footer>
 </body>
 </html>
