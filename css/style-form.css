@@ -1,27 +1,129 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body { 
-    background-color: white;
+    background-color: rgb(206, 199, 199);
     font-family: Arial, sans-serif;
 }
 
 header{
-    background-color: rgb(0, 183, 255);
+    height: 230px;
+    background-color:rgba(0, 225, 255, 0.822);
+    padding: 80px;
     text-align: center;
 }
-nav{
-    background-color: rgb(0, 119, 255);
+header h1{
+    margin: 0px 0px 12px;
+    margin-top: 20px !important;
+}
+.nav-bar{
+    background-color: rgb(0, 162, 255);
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    height: 70px;
+    
 }
-nav a{
-    position: relative;
-    display: inline-block;
-    font-size: 1em;
-    font-weight: 500;
+.nav-bar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+.nav-bar ul li{
+    display: flex;
+    margin: 0 20px;
+    
+} 
+.nav-bar ul li a{
+    color: black;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.nav-bar ul li a:hover{
+    color: black;
+    background: white;
+}
+
+@media (max-width: 768px) {
+    .nav-bar ul {
+        justify-content: space-around; /* Asegura que los elementos se distribuyan de manera uniforme */
+        gap: 10px; /* Reduce el espacio entre los elementos en pantallas pequeñas */
+    }
+    .nav-bar ul li {
+        margin: 0; /* Elimina el margen lateral para ajustarse mejor al espacio */
+    }
+    .nav-bar ul li a {
+        font-size: 18px; /* Ajusta el tamaño de la fuente */
+        padding: 8px 20px; /* Ajusta el padding para pantallas pequeñas */
+    }
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form ul li {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block; 
+    margin-bottom: 5px; 
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: rgb(0, 162, 255); 
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0077cc;
+}
+
+main{
+    flex: 1 1 100%;
+}
+
+footer{
+    background-color: black;
     color: white;
-    padding: 0 23px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }
